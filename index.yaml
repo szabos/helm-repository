@@ -1,0 +1,99 @@
+apiVersion: v1
+entries:
+  aws-load-balancer-controller:
+  - apiVersion: v2
+    appVersion: v2.4.2
+    created: "2023-05-07T05:37:35.614812912-04:00"
+    description: AWS Load Balancer Controller Helm chart for Kubernetes
+    digest: 1336b169bd4f79390bcaf537aa61d1c5e986d81ba7972c5725ce14489bfa3228
+    home: https://github.com/aws/eks-charts
+    icon: https://raw.githubusercontent.com/aws/eks-charts/master/docs/logo/aws.png
+    keywords:
+    - eks
+    - alb
+    - load balancer
+    - ingress
+    - nlb
+    maintainers:
+    - email: kishorj@users.noreply.github.com
+      name: kishorj
+      url: https://github.com/kishorj
+    - email: m00nf1sh@users.noreply.github.com
+      name: m00nf1sh
+      url: https://github.com/m00nf1sh
+    name: aws-load-balancer-controller
+    sources:
+    - https://github.com/aws/eks-charts
+    urls:
+    - aws-load-balancer-controller-1.4.3.tgz
+    version: 1.4.3
+  cluster-autoscaler:
+  - apiVersion: v2
+    appVersion: 1.23.0
+    created: "2023-05-07T05:37:35.618893928-04:00"
+    description: Scales Kubernetes worker nodes within autoscaling groups.
+    digest: e903ed935ad59125807faffe69cac5a8668e191774c1e4c96471a4360c958576
+    home: https://github.com/kubernetes/autoscaler
+    icon: https://github.com/kubernetes/kubernetes/raw/master/logo/logo.png
+    maintainers:
+    - email: guyjtempleton@googlemail.com
+      name: gjtempleton
+    name: cluster-autoscaler
+    sources:
+    - https://github.com/kubernetes/autoscaler/tree/master/cluster-autoscaler
+    type: application
+    urls:
+    - cluster-autoscaler-9.20.1.tgz
+    version: 9.20.1
+  external-dns:
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: added
+          description: "Added support for ServiceMonitor relabelling."
+        - kind: changed
+          description: "Updated chart icon path."
+        - kind: added
+          description: "Added RBAC for Gateway-API resources to ClusterRole."
+        - kind: added
+          description: "Added RBAC for F5 VirtualServer to ClusterRole."
+        - kind: added
+          description: "Added support for running ExternalDNS with namespaced scope."
+        - kind: changed
+          description: "Updated _ExternalDNS_ version to [v0.13.4](https://github.com/kubernetes-sigs/external-dns/releases/tag/v0.13.4)."
+    apiVersion: v2
+    appVersion: 0.13.4
+    created: "2023-05-07T05:37:35.622582512-04:00"
+    description: ExternalDNS synchronizes exposed Kubernetes Services and Ingresses
+      with DNS providers.
+    digest: ba706626797891ec7aa064bc4b8045f9f924851bc30862b69dbf2f6ce3599532
+    home: https://github.com/kubernetes-sigs/external-dns/
+    icon: https://github.com/kubernetes-sigs/external-dns/raw/master/docs/img/external-dns.png
+    keywords:
+    - kubernetes
+    - externaldns
+    - external-dns
+    - dns
+    - service
+    - ingress
+    maintainers:
+    - email: steve.hipwell@gmail.com
+      name: stevehipwell
+    name: external-dns
+    sources:
+    - https://github.com/kubernetes-sigs/external-dns/
+    type: application
+    urls:
+    - external-dns-1.12.2.tgz
+    version: 1.12.2
+  namespaces:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-05-07T05:37:35.625512159-04:00"
+    description: A Helm chart for Kubernetes
+    digest: 78526df887735bcc6c4a34c6ce03ff7f8bd6164f181b0202edae2886cab7ff95
+    name: namespaces
+    type: application
+    urls:
+    - namespaces-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-05-07T05:37:35.610469245-04:00"
