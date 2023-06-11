@@ -6,7 +6,7 @@ entries:
         - "[chore]: Update ArgoCD to v2.5.5"
     apiVersion: v2
     appVersion: v2.5.5
-    created: "2023-05-30T08:54:21.071133212-04:00"
+    created: "2023-06-11T08:45:10.276668619-04:00"
     dependencies:
     - condition: redis-ha.enabled
       name: redis-ha
@@ -35,7 +35,7 @@ entries:
   argocd-applications:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-05-30T08:54:21.073880973-04:00"
+    created: "2023-06-11T08:45:10.283269124-04:00"
     description: A Helm chart for Kubernetes
     digest: e766f122cfcba0b93237d1bf669b558b36472e28020819f7ad43a8ede3610eab
     name: argocd-applications
@@ -46,7 +46,7 @@ entries:
   argocd-projects:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-05-30T08:54:21.082537875-04:00"
+    created: "2023-06-11T08:45:10.300657372-04:00"
     description: A Helm chart for Kubernetes
     digest: 7e250fd64ae86db90d6c9d3099161b30a252ef129664533530de21a9af1c067d
     name: argocd-projects
@@ -56,7 +56,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-05-30T08:54:21.0795084-04:00"
+    created: "2023-06-11T08:45:10.29490101-04:00"
     description: A Helm chart for Kubernetes
     digest: 67976dd2df56da94db613fa01d6a4f271ef5158227e90c0671009579cd84c316
     name: argocd-projects
@@ -66,7 +66,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-05-30T08:54:21.076710396-04:00"
+    created: "2023-06-11T08:45:10.289250335-04:00"
     description: A Helm chart for Kubernetes
     digest: 176445264f15f073f7bc10a0a3dead19466efa7833f0e80af2edbbe4fbf4f895
     name: argocd-projects
@@ -77,7 +77,7 @@ entries:
   argocd-secrets:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-05-30T08:54:21.085580055-04:00"
+    created: "2023-06-11T08:45:10.306296907-04:00"
     description: A Helm chart for Kubernetes
     digest: dcb7bb0b06b79aa7ccf05a55810deb6455a583f7aea3e234033d37c5c0357104
     name: argocd-secrets
@@ -88,7 +88,7 @@ entries:
   aws-load-balancer-controller:
   - apiVersion: v2
     appVersion: v2.4.2
-    created: "2023-05-30T08:54:21.089722144-04:00"
+    created: "2023-06-11T08:45:10.313322053-04:00"
     description: AWS Load Balancer Controller Helm chart for Kubernetes
     digest: 1336b169bd4f79390bcaf537aa61d1c5e986d81ba7972c5725ce14489bfa3228
     home: https://github.com/aws/eks-charts
@@ -115,7 +115,7 @@ entries:
   cluster-autoscaler:
   - apiVersion: v2
     appVersion: 1.23.0
-    created: "2023-05-30T08:54:21.093831432-04:00"
+    created: "2023-06-11T08:45:10.320115176-04:00"
     description: Scales Kubernetes worker nodes within autoscaling groups.
     digest: e903ed935ad59125807faffe69cac5a8668e191774c1e4c96471a4360c958576
     home: https://github.com/kubernetes/autoscaler
@@ -147,7 +147,7 @@ entries:
           description: "Updated _ExternalDNS_ version to [v0.13.4](https://github.com/kubernetes-sigs/external-dns/releases/tag/v0.13.4)."
     apiVersion: v2
     appVersion: 0.13.4
-    created: "2023-05-30T08:54:21.097341423-04:00"
+    created: "2023-06-11T08:45:10.327411396-04:00"
     description: ExternalDNS synchronizes exposed Kubernetes Services and Ingresses
       with DNS providers.
     digest: ba706626797891ec7aa064bc4b8045f9f924851bc30862b69dbf2f6ce3599532
@@ -173,7 +173,17 @@ entries:
   namespaces:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-05-30T08:54:21.100281402-04:00"
+    created: "2023-06-11T08:45:10.33591701-04:00"
+    description: A Helm chart for Kubernetes
+    digest: c3ca6e20c7de767a20d9cd7282dfa1772d3125242a541260091c3bccdea4d026
+    name: namespaces
+    type: application
+    urls:
+    - namespaces-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-06-11T08:45:10.333095114-04:00"
     description: A Helm chart for Kubernetes
     digest: 78526df887735bcc6c4a34c6ce03ff7f8bd6164f181b0202edae2886cab7ff95
     name: namespaces
@@ -181,4 +191,4 @@ entries:
     urls:
     - namespaces-0.1.0.tgz
     version: 0.1.0
-generated: "2023-05-30T08:54:21.058034541-04:00"
+generated: "2023-06-11T08:45:10.257396461-04:00"
