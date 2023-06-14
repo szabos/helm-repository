@@ -6,7 +6,7 @@ entries:
         - "[chore]: Update ArgoCD to v2.5.5"
     apiVersion: v2
     appVersion: v2.5.5
-    created: "2023-06-14T13:15:02.214462963-04:00"
+    created: "2023-06-14T13:16:27.212681484-04:00"
     dependencies:
     - condition: redis-ha.enabled
       name: redis-ha
@@ -35,7 +35,7 @@ entries:
   argocd-applications:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-06-14T13:15:02.217196545-04:00"
+    created: "2023-06-14T13:16:27.215499884-04:00"
     description: Argo CD Applications
     digest: fdfae260fa6901a75ba0c88930932102685c919073144c13144c2d1d75adab01
     name: argocd-applications
@@ -46,7 +46,7 @@ entries:
   argocd-projects:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-06-14T13:15:02.219925899-04:00"
+    created: "2023-06-14T13:16:27.21825696-04:00"
     description: Argo CD Projects
     digest: aa89e5086f99321fed3b4095b4cde208e7755575eb8b7788ed199ae95b3f74e5
     name: argocd-projects
@@ -57,7 +57,7 @@ entries:
   argocd-secrets:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-06-14T13:15:02.222822113-04:00"
+    created: "2023-06-14T13:16:27.221035215-04:00"
     description: Argo CD Secrets
     digest: 23253457fe098a02f71dc15759a65a8356be94d13fa414e62330b853c67b75f2
     name: argocd-secrets
@@ -68,7 +68,7 @@ entries:
   aws-load-balancer-controller:
   - apiVersion: v2
     appVersion: v2.4.2
-    created: "2023-06-14T13:15:02.226621621-04:00"
+    created: "2023-06-14T13:16:27.224857324-04:00"
     description: AWS Load Balancer Controller Helm chart for Kubernetes
     digest: 1336b169bd4f79390bcaf537aa61d1c5e986d81ba7972c5725ce14489bfa3228
     home: https://github.com/aws/eks-charts
@@ -95,7 +95,7 @@ entries:
   cluster-autoscaler:
   - apiVersion: v2
     appVersion: 1.23.0
-    created: "2023-06-14T13:15:02.230372448-04:00"
+    created: "2023-06-14T13:16:27.229130844-04:00"
     description: Scales Kubernetes worker nodes within autoscaling groups.
     digest: e903ed935ad59125807faffe69cac5a8668e191774c1e4c96471a4360c958576
     home: https://github.com/kubernetes/autoscaler
@@ -127,7 +127,7 @@ entries:
           description: "Updated _ExternalDNS_ version to [v0.13.4](https://github.com/kubernetes-sigs/external-dns/releases/tag/v0.13.4)."
     apiVersion: v2
     appVersion: 0.13.4
-    created: "2023-06-14T13:15:02.233700035-04:00"
+    created: "2023-06-14T13:16:27.232569128-04:00"
     description: ExternalDNS synchronizes exposed Kubernetes Services and Ingresses
       with DNS providers.
     digest: ba706626797891ec7aa064bc4b8045f9f924851bc30862b69dbf2f6ce3599532
@@ -153,22 +153,12 @@ entries:
   namespaces:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-06-14T13:15:02.239638837-04:00"
-    description: A Helm chart for Kubernetes
-    digest: c3ca6e20c7de767a20d9cd7282dfa1772d3125242a541260091c3bccdea4d026
+    created: "2023-06-14T13:16:27.235274658-04:00"
+    description: Namespaces
+    digest: bab710da7d286cddc1568d46d17adb9d8c83d9875c46eec2aefb2f60392b68e7
     name: namespaces
     type: application
     urls:
-    - namespaces-0.2.0.tgz
-    version: 0.2.0
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2023-06-14T13:15:02.236723948-04:00"
-    description: A Helm chart for Kubernetes
-    digest: 78526df887735bcc6c4a34c6ce03ff7f8bd6164f181b0202edae2886cab7ff95
-    name: namespaces
-    type: application
-    urls:
-    - namespaces-0.1.0.tgz
-    version: 0.1.0
-generated: "2023-06-14T13:15:02.201403197-04:00"
+    - namespaces-0.3.0.tgz
+    version: 0.3.0
+generated: "2023-06-14T13:16:27.200158568-04:00"
