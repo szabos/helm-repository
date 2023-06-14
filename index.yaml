@@ -6,7 +6,7 @@ entries:
         - "[chore]: Update ArgoCD to v2.5.5"
     apiVersion: v2
     appVersion: v2.5.5
-    created: "2023-06-14T13:20:24.63770375-04:00"
+    created: "2023-06-14T13:22:59.531174391-04:00"
     dependencies:
     - condition: redis-ha.enabled
       name: redis-ha
@@ -34,41 +34,41 @@ entries:
     version: 5.16.7
   argocd-applications:
   - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2023-06-14T13:20:24.639956196-04:00"
+    appVersion: 0.0.0
+    created: "2023-06-14T13:22:59.534253727-04:00"
     description: Argo CD Applications
-    digest: fdfae260fa6901a75ba0c88930932102685c919073144c13144c2d1d75adab01
+    digest: 02fc79ed4c792b8b0c6fbaeb806db51858e93880f75bd44213ce008e307cf5a5
     name: argocd-applications
     type: application
     urls:
-    - argocd-applications-0.2.0.tgz
-    version: 0.2.0
+    - argocd-applications-0.3.0.tgz
+    version: 0.3.0
   argocd-projects:
   - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2023-06-14T13:20:24.642156865-04:00"
+    appVersion: 0.0.0
+    created: "2023-06-14T13:22:59.537336229-04:00"
     description: Argo CD Projects
-    digest: aa89e5086f99321fed3b4095b4cde208e7755575eb8b7788ed199ae95b3f74e5
+    digest: dfef7c80b4c232b5393daaf1ad47ec59619110da366c0738eaab7f807600cf2d
     name: argocd-projects
     type: application
     urls:
-    - argocd-projects-0.4.0.tgz
-    version: 0.4.0
+    - argocd-projects-0.5.0.tgz
+    version: 0.5.0
   argocd-secrets:
   - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2023-06-14T13:20:24.644523944-04:00"
+    appVersion: 0.0.0
+    created: "2023-06-14T13:22:59.540458635-04:00"
     description: Argo CD Secrets
-    digest: 23253457fe098a02f71dc15759a65a8356be94d13fa414e62330b853c67b75f2
+    digest: a403b431c14ebdf56085a82a1b99d2ce19d1c129de6f52655b4d2b7854d285ed
     name: argocd-secrets
     type: application
     urls:
-    - argocd-secrets-0.2.0.tgz
-    version: 0.2.0
+    - argocd-secrets-0.3.0.tgz
+    version: 0.3.0
   aws-load-balancer-controller:
   - apiVersion: v2
     appVersion: v2.4.2
-    created: "2023-06-14T13:20:24.648173582-04:00"
+    created: "2023-06-14T13:22:59.544468093-04:00"
     description: AWS Load Balancer Controller Helm chart for Kubernetes
     digest: 1336b169bd4f79390bcaf537aa61d1c5e986d81ba7972c5725ce14489bfa3228
     home: https://github.com/aws/eks-charts
@@ -95,7 +95,7 @@ entries:
   cluster-autoscaler:
   - apiVersion: v2
     appVersion: 1.23.0
-    created: "2023-06-14T13:20:24.65173737-04:00"
+    created: "2023-06-14T13:22:59.548695387-04:00"
     description: Scales Kubernetes worker nodes within autoscaling groups.
     digest: e903ed935ad59125807faffe69cac5a8668e191774c1e4c96471a4360c958576
     home: https://github.com/kubernetes/autoscaler
@@ -127,7 +127,7 @@ entries:
           description: "Updated _ExternalDNS_ version to [v0.13.4](https://github.com/kubernetes-sigs/external-dns/releases/tag/v0.13.4)."
     apiVersion: v2
     appVersion: 0.13.4
-    created: "2023-06-14T13:20:24.654605623-04:00"
+    created: "2023-06-14T13:22:59.552408683-04:00"
     description: ExternalDNS synchronizes exposed Kubernetes Services and Ingresses
       with DNS providers.
     digest: ba706626797891ec7aa064bc4b8045f9f924851bc30862b69dbf2f6ce3599532
@@ -153,7 +153,7 @@ entries:
   namespaces:
   - apiVersion: v2
     appVersion: 0.0.0
-    created: "2023-06-14T13:20:24.656882344-04:00"
+    created: "2023-06-14T13:22:59.556415197-04:00"
     description: Application namespaces and RBAC
     digest: ad0467f47134fe0ed5c3947659074078761748dd750d4f60d2e2644449418789
     name: namespaces
@@ -161,4 +161,4 @@ entries:
     urls:
     - namespaces-0.4.0.tgz
     version: 0.4.0
-generated: "2023-06-14T13:20:24.625454684-04:00"
+generated: "2023-06-14T13:22:59.518283921-04:00"
