@@ -6,7 +6,7 @@ entries:
         - "[chore]: Update ArgoCD to v2.5.5"
     apiVersion: v2
     appVersion: v2.5.5
-    created: "2023-07-03T07:35:25.795756621-04:00"
+    created: "2023-07-03T08:02:57.65729353-04:00"
     dependencies:
     - condition: redis-ha.enabled
       name: redis-ha
@@ -14,7 +14,7 @@ entries:
       version: 4.22.3
     description: A Helm chart for Argo CD, a declarative, GitOps continuous delivery
       tool for Kubernetes.
-    digest: 82e3cfef846b0a4db9236863e6fe3697cf72581bfc154d8500d43a276a121812
+    digest: 3c399c124e637c965d78ce0b912e96a18aaad879dc7e65c67df3a7a3ec8336f5
     home: https://github.com/argoproj/argo-helm
     icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
     keywords:
@@ -38,9 +38,9 @@ entries:
         - "[Changed]: Upgrade ArgoRollouts to v1.3.1"
     apiVersion: v2
     appVersion: v1.3.1
-    created: "2023-07-03T07:35:25.804607822-04:00"
+    created: "2023-07-03T08:02:57.663088444-04:00"
     description: A Helm chart for Argo Rollouts
-    digest: 4b94850c9225193fc8267cce00580acab06640782b657946bb01551371ba156b
+    digest: e12cc18a415486170e978cc119a35296ee647d2ce182d95e2aa0a86cbf067ce2
     home: https://github.com/argoproj/argo-helm
     icon: https://argoproj.github.io/argo-rollouts/assets/logo.png
     keywords:
@@ -58,9 +58,9 @@ entries:
   argocd-applications:
   - apiVersion: v2
     appVersion: 0.0.0
-    created: "2023-07-03T07:35:25.807702059-04:00"
+    created: "2023-07-03T08:02:57.665979083-04:00"
     description: Argo CD Applications
-    digest: a38324ddb5be49e5f554347d6446d07c4c539b29181e8b0d9a5af41f2d9ab4a8
+    digest: 65c9985e39e033d46e9bf58b3a8230a3b81725647a5d9e908c29ee6e55af2df1
     name: argocd-applications
     type: application
     urls:
@@ -73,10 +73,10 @@ entries:
           description: Update Argo CD Image Updater to v0.12.2
     apiVersion: v2
     appVersion: v0.12.2
-    created: "2023-07-03T07:35:25.811748722-04:00"
+    created: "2023-07-03T08:02:57.669578005-04:00"
     description: A Helm chart for Argo CD Image Updater, a tool to automatically update
       the container images of Kubernetes workloads which are managed by Argo CD
-    digest: 601acd1cd315e17f8d549c0352ead52ea6e783ffe16c6030c47544636bb9083e
+    digest: ed8204bbcd680d5f264ee27d8d79cfe1483962e433b194c1106e7b582ec55548
     home: https://github.com/argoproj-labs/argocd-image-updater
     icon: https://argocd-image-updater.readthedocs.io/en/stable/assets/logo.png
     keywords:
@@ -94,9 +94,9 @@ entries:
   argocd-projects:
   - apiVersion: v2
     appVersion: 0.0.0
-    created: "2023-07-03T07:35:25.814802128-04:00"
+    created: "2023-07-03T08:02:57.672967081-04:00"
     description: Argo CD Projects
-    digest: e47c5001f3667450780600e4bca7a80f33fa43ff56a6e183a7d3646e4ae786d4
+    digest: 94ab79b61f13f958c3f25f2213f549859a603b57202492407abb199188575bfe
     name: argocd-projects
     type: application
     urls:
@@ -105,7 +105,17 @@ entries:
   argocd-secrets:
   - apiVersion: v2
     appVersion: 0.0.0
-    created: "2023-07-03T07:35:25.82092517-04:00"
+    created: "2023-07-03T08:02:57.68173388-04:00"
+    description: Argo CD Secrets
+    digest: ec0352ecb5088ce6d77da51d94259e8794eeee19b33e217f39ea6c387105ff94
+    name: argocd-secrets
+    type: application
+    urls:
+    - argocd-secrets-0.6.0.tgz
+    version: 0.6.0
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2023-07-03T08:02:57.678895766-04:00"
     description: Argo CD Secrets
     digest: 4ef71647abc043339eef3fd761daa7618d49e1ba4494d962fc9d6334d0e719f3
     name: argocd-secrets
@@ -115,7 +125,7 @@ entries:
     version: 0.5.0
   - apiVersion: v2
     appVersion: 0.0.0
-    created: "2023-07-03T07:35:25.818015893-04:00"
+    created: "2023-07-03T08:02:57.67596039-04:00"
     description: Argo CD Secrets
     digest: 06f77b2778af3689c2aceb7008361f4107e425c005cccd7554da736cbd6ae10d
     name: argocd-secrets
@@ -126,9 +136,9 @@ entries:
   aws-load-balancer-controller:
   - apiVersion: v2
     appVersion: v2.4.2
-    created: "2023-07-03T07:35:25.825892847-04:00"
+    created: "2023-07-03T08:02:57.685706591-04:00"
     description: AWS Load Balancer Controller Helm chart for Kubernetes
-    digest: 6f20bf169e5a085e2e20104b08e80a29e1608409d5c6edeadb4334bf6417ec36
+    digest: 473823845d15addf80f788ca07518e2324500e3b284f4c20df799be1524e5104
     home: https://github.com/aws/eks-charts
     icon: https://raw.githubusercontent.com/aws/eks-charts/master/docs/logo/aws.png
     keywords:
@@ -153,9 +163,9 @@ entries:
   base:
   - apiVersion: v1
     appVersion: 1.16.1
-    created: "2023-07-03T07:35:25.834692622-04:00"
+    created: "2023-07-03T08:02:57.690891453-04:00"
     description: Helm chart for deploying Istio cluster resources and CRDs
-    digest: 864f38a4b93698fe5d21058612069820d7a967519c5bd829965be8c6f4d9a094
+    digest: baa08704fb70c742a8cab88c9c9674384e034c7c0b05dda583ee2ed1f561bd2f
     icon: https://istio.io/latest/favicons/android-192x192.png
     keywords:
     - istio
@@ -173,9 +183,9 @@ entries:
         url: https://cert-manager.io/public-keys/cert-manager-keyring-2021-09-20-1020CF3C033D4F35BAE1C19E1226061C665DF13E.gpg
     apiVersion: v1
     appVersion: v1.11.0
-    created: "2023-07-03T07:35:25.844502822-04:00"
+    created: "2023-07-03T08:02:57.697630173-04:00"
     description: A Helm chart for cert-manager
-    digest: 5b8967ecc2d337321ba4c39c7d9f1bc53482d328c610fa0a83aa9fbc45d66041
+    digest: 8426d30ada21bf10e9d378fa12108289831ccee6a50be5fbe9da4d45b6bc07d7
     home: https://github.com/cert-manager/cert-manager
     icon: https://raw.githubusercontent.com/cert-manager/cert-manager/d53c0b9270f8cd90d908460d69502694e1838f5f/logo/logo-small.png
     keywords:
@@ -203,10 +213,10 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 2.5.2
-    created: "2023-07-03T07:35:25.874318319-04:00"
+    created: "2023-07-03T08:02:57.715280628-04:00"
     description: Chaos Mesh is a cloud-native Chaos Engineering platform that orchestrates
       chaos on Kubernetes environments.
-    digest: c673b3667c92f487949f32b65eca2b93e58d59e8329a8afb301c4b74ea474460
+    digest: 350279940f009592e27a76cbb96d563727442c4a09e090288dd297085661ac91
     home: https://chaos-mesh.org
     icon: https://raw.githubusercontent.com/pingcap/chaos-mesh/master/static/logo.svg
     keywords:
@@ -235,9 +245,9 @@ entries:
   cluster-autoscaler:
   - apiVersion: v2
     appVersion: 1.23.0
-    created: "2023-07-03T07:35:25.87930445-04:00"
+    created: "2023-07-03T08:02:57.719398589-04:00"
     description: Scales Kubernetes worker nodes within autoscaling groups.
-    digest: 2b0a42667e4fbd865181eff5f92d2a209222ac7f6d3f746f7642f9e0eb0fc578
+    digest: 3e684b854f43d71222d2f48b2f768f0ea68e4293b882d42fd126bc2870fd4099
     home: https://github.com/kubernetes/autoscaler
     icon: https://github.com/kubernetes/kubernetes/raw/master/logo/logo.png
     maintainers:
@@ -267,10 +277,10 @@ entries:
           description: "Updated _ExternalDNS_ version to [v0.13.4](https://github.com/kubernetes-sigs/external-dns/releases/tag/v0.13.4)."
     apiVersion: v2
     appVersion: 0.13.4
-    created: "2023-07-03T07:35:25.883631752-04:00"
+    created: "2023-07-03T08:02:57.722967898-04:00"
     description: ExternalDNS synchronizes exposed Kubernetes Services and Ingresses
       with DNS providers.
-    digest: 7a1768ec6d0800bf0889873fbe822c7e0e1927397e689a31baae3d902fba422e
+    digest: 991f0480b3fd579473a873e8a244ff96377680cc36eda9a125f89410b9c42e0b
     home: https://github.com/kubernetes-sigs/external-dns/
     icon: https://github.com/kubernetes-sigs/external-dns/raw/master/docs/img/external-dns.png
     keywords:
@@ -293,9 +303,9 @@ entries:
   external-secrets:
   - apiVersion: v2
     appVersion: v0.7.2
-    created: "2023-07-03T07:35:25.891235306-04:00"
+    created: "2023-07-03T08:02:57.729029274-04:00"
     description: External secret management for Kubernetes
-    digest: bdac2a53315ff5c5913cd8749c40d38b71f0b9ac617e6fe2c6220d67da78b106
+    digest: e6a5bc38ca3c4649b494a1e45cc959262aee99e3e8eafac79d0d6a7ab2309688
     home: https://github.com/external-secrets/external-secrets
     icon: https://raw.githubusercontent.com/external-secrets/external-secrets/main/assets/eso-logo-large.png
     keywords:
@@ -313,9 +323,9 @@ entries:
   gateway:
   - apiVersion: v2
     appVersion: 1.16.1
-    created: "2023-07-03T07:35:25.894699387-04:00"
+    created: "2023-07-03T08:02:57.732252357-04:00"
     description: Helm chart for deploying Istio gateways
-    digest: 3b9fd8d96d48b5582106a71f222b3ba51b5d9e68b46a03bab128724cffae478d
+    digest: c71ec2f1412733af050693ce51c7718ad019885bc0fd6cc8085467b2bdb2e9be
     icon: https://istio.io/latest/favicons/android-192x192.png
     keywords:
     - istio
@@ -330,9 +340,9 @@ entries:
   grafana:
   - apiVersion: v2
     appVersion: 9.3.1
-    created: "2023-07-03T07:35:25.902591729-04:00"
+    created: "2023-07-03T08:02:57.738058427-04:00"
     description: The leading tool for querying and visualizing time series and metrics.
-    digest: e821cd4c1231f127f89c99007eacecfd62c0b777970bda66ac5651770d5bb465
+    digest: 69676dd962e60278c728821182a55a523eccd55a3d4e2ee71ec480599cd56a38
     home: https://grafana.net
     icon: https://raw.githubusercontent.com/grafana/grafana/master/public/img/logo_transparent_400x.png
     kubeVersion: ^1.8.0-0
@@ -357,10 +367,10 @@ entries:
   harbor:
   - apiVersion: v1
     appVersion: 2.8.1
-    created: "2023-07-03T07:35:25.911601506-04:00"
+    created: "2023-07-03T08:02:57.744682624-04:00"
     description: An open source trusted cloud native registry that stores, signs,
       and scans content
-    digest: 03ea7114a219f2fa59f981255c787923c3caae83e86b571d37961019ea771f89
+    digest: 18b19339d4812e5c99f3d9ad02ba601fe8e4a68ad62776930d004b553fca2175
     home: https://goharbor.io
     icon: https://raw.githubusercontent.com/goharbor/website/master/static/img/logos/harbor-icon-color.png
     keywords:
@@ -392,10 +402,10 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 1.6.4
-    created: "2023-07-03T07:35:25.920838226-04:00"
+    created: "2023-07-03T08:02:57.751471197-04:00"
     description: Ingress controller for Kubernetes using NGINX as a reverse proxy
       and load balancer
-    digest: 0ea9b1f5faf87de13d144628e365c725a8268c89669c2e8685c11e3ffe9c0d85
+    digest: 929f37140ef0cbbe80105bf4c8f63b69176b1c8d53cdd6759f4a6f83ba884335
     home: https://github.com/kubernetes/ingress-nginx
     icon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/500px-Nginx_logo.svg.png
     keywords:
@@ -415,9 +425,9 @@ entries:
   istiod:
   - apiVersion: v1
     appVersion: 1.16.1
-    created: "2023-07-03T07:35:25.927705757-04:00"
+    created: "2023-07-03T08:02:57.756429756-04:00"
     description: Helm chart for istio control plane
-    digest: 14e543f89bce02033bc145209d64e81a03a264c4c69ecf6f11438fa0152eeb5a
+    digest: 75d65abb2e0170e1db00ecaf1cfe5d45ebf98f96cbdcd468d8a22fea3f6a7b00
     icon: https://istio.io/latest/favicons/android-192x192.png
     keywords:
     - istio
@@ -432,10 +442,10 @@ entries:
   kiali-server:
   - apiVersion: v2
     appVersion: v1.65.0
-    created: "2023-07-03T07:35:25.931624412-04:00"
+    created: "2023-07-03T08:02:57.75976081-04:00"
     description: Kiali is an open source project for service mesh observability, refer
       to https://www.kiali.io for details.
-    digest: 726e4335e0fd60eef3f3b8ccab7fead9b73309da81c874bf20cdbb77db5a0898
+    digest: 71e6f1611170cbeeed7ba556504d3811687e34b83148c237cbe1ce56e191fe65
     home: https://github.com/kiali/kiali
     icon: https://raw.githubusercontent.com/kiali/kiali.io/master/themes/kiali/static/img/kiali_logo_masthead.png
     keywords:
@@ -456,9 +466,9 @@ entries:
   kube-state-metrics:
   - apiVersion: v2
     appVersion: 2.7.0
-    created: "2023-07-03T07:35:25.935890785-04:00"
+    created: "2023-07-03T08:02:57.763467745-04:00"
     description: Install kube-state-metrics to generate and expose cluster-level metrics
-    digest: 745c2915c02ca851461456c47e48af64a5ca18257105897ee7c1a805408b3cbb
+    digest: 05d5ebee2137ceb709e99d373a4927057955cd9dd80cf259a58c0719d8c6537e
     home: https://github.com/kubernetes/kube-state-metrics/
     keywords:
     - metric
@@ -482,14 +492,14 @@ entries:
   kubernetes-dashboard:
   - apiVersion: v2
     appVersion: v2.7.0
-    created: "2023-07-03T07:35:25.941545764-04:00"
+    created: "2023-07-03T08:02:57.768075981-04:00"
     dependencies:
     - condition: metrics-server.enabled
       name: metrics-server
       repository: https://kubernetes-sigs.github.io/metrics-server/
       version: 3.8.4
     description: General-purpose web UI for Kubernetes clusters
-    digest: dbcd2ac6ccf25252035db55f668bda8803732371fbf7e1b2a5763b4605837334
+    digest: ed5ce5f1a9f0b3eaa22f3592682af408e6742c40edaad9969fc7a08dc30419ef
     home: https://github.com/kubernetes/dashboard
     icon: https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.svg
     keywords:
@@ -512,10 +522,10 @@ entries:
           description: "Allow probes to be turned off completly (this is not advised unless you know what you're doing)."
     apiVersion: v2
     appVersion: 0.6.1
-    created: "2023-07-03T07:35:25.945455026-04:00"
+    created: "2023-07-03T08:02:57.770835569-04:00"
     description: Metrics Server is a scalable, efficient source of container resource
       metrics for Kubernetes built-in autoscaling pipelines.
-    digest: 46c2a0aebb92880cfadaba9edb90b2e5f9b1e17e8622015a5fecd33e3ea6ff95
+    digest: 6de8341e5400c4e3cd2da4bcf787c81ef4cc301fe3c52a4612f903404954b731
     home: https://github.com/kubernetes-sigs/metrics-server
     icon: https://avatars.githubusercontent.com/u/36015203?s=400&v=4
     keywords:
@@ -539,9 +549,9 @@ entries:
   namespaces:
   - apiVersion: v2
     appVersion: 0.0.0
-    created: "2023-07-03T07:35:25.948231415-04:00"
+    created: "2023-07-03T08:02:57.773046343-04:00"
     description: Application namespaces and RBAC
-    digest: 8f7cf007d09718f6715e1d4b06868b5e4a0f74fb24edb55c948a23d3e5535d43
+    digest: f69ce4210d39fd23dba76ffc46a428113b5e73308432402233d1c21893357a57
     name: namespaces
     type: application
     urls:
@@ -553,7 +563,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 15.2.0
-    created: "2023-07-03T07:35:25.958127665-04:00"
+    created: "2023-07-03T08:02:57.779561316-04:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -563,7 +573,7 @@ entries:
     description: PostgreSQL (Postgres) is an open source object-relational database
       known for reliability and data integrity. ACID-compliant, it supports foreign
       keys, joins, views, triggers and stored procedures.
-    digest: ace30ac90787e44131eae4f517d86054da82d179b2dbf8af7d2d45dc2ae8e1da
+    digest: 46aaa92c9a79f485e8ef7ca941059774055be13e32a442f4e58887d7e7e7fcdc
     home: https://github.com/bitnami/charts/tree/main/bitnami/postgresql
     icon: https://bitnami.com/assets/stacks/postgresql/img/postgresql-stack-220x234.png
     keywords:
@@ -592,7 +602,7 @@ entries:
           url: https://github.com/prometheus/prometheus
     apiVersion: v2
     appVersion: v2.40.5
-    created: "2023-07-03T07:35:25.968156943-04:00"
+    created: "2023-07-03T08:02:57.787727409-04:00"
     dependencies:
     - condition: alertmanager.enabled
       name: alertmanager
@@ -611,7 +621,7 @@ entries:
       repository: https://prometheus-community.github.io/helm-charts
       version: 2.0.*
     description: Prometheus is a monitoring system and time series database.
-    digest: 411cd270930522a3545b41c986b79ab53fef0e868b90af4316772ff66151c73c
+    digest: 0fc6ff69740ca33aaffe2323032cdff744efe459e98b9ef483dec802ef097259
     home: https://prometheus.io/
     icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
     keywords:
@@ -644,7 +654,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 7.0.11
-    created: "2023-07-03T07:35:25.980950288-04:00"
+    created: "2023-07-03T08:02:57.796782911-04:00"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -654,7 +664,7 @@ entries:
     description: Redis(R) is an open source, advanced key-value store. It is often
       referred to as a data structure server since keys can contain strings, hashes,
       lists, sets and sorted sets.
-    digest: 51ccccb674305b86576994528f42151d969ef24ac591a6be4c5fee5a7571387d
+    digest: 350a7d1bf494784aa3a4df55e3fa6b887c3062ae9fa8c362a267f656c41c652d
     home: https://bitnami.com
     icon: https://bitnami.com/assets/stacks/redis/img/redis-stack-220x234.png
     keywords:
@@ -673,9 +683,9 @@ entries:
   reloader:
   - apiVersion: v1
     appVersion: v0.0.124
-    created: "2023-07-03T07:35:25.984795731-04:00"
+    created: "2023-07-03T08:02:57.800134694-04:00"
     description: Reloader chart that runs on kubernetes
-    digest: fd65a241ed6ab611e58e1d3ce07978317785a48a7320b660bf05b5c9030acd19
+    digest: 3de1e7c651fc8ff2717018303ac0d74b042700ebbd979abb30fa638191215921
     home: https://github.com/stakater/Reloader
     icon: https://raw.githubusercontent.com/stakater/Reloader/master/assets/web/reloader-round-100px.png
     keywords:
@@ -707,10 +717,10 @@ entries:
   secrets-store-csi-driver:
   - apiVersion: v2
     appVersion: 1.3.1
-    created: "2023-07-03T07:35:25.989208869-04:00"
+    created: "2023-07-03T08:02:57.803935493-04:00"
     description: A Helm chart to install the SecretsStore CSI Driver inside a Kubernetes
       cluster.
-    digest: f98edf3738b3dc282988ae31cbdbd0c386430143419e7062d88f7585e287fdc7
+    digest: 7c916499292d6eac95256a60006657bdd8691997f4656a3fc987a83b43eb18ba
     icon: https://github.com/kubernetes/kubernetes/blob/master/logo/logo.png
     kubeVersion: '>=1.16.0-0'
     maintainers:
@@ -725,9 +735,9 @@ entries:
   tigera-operator:
   - apiVersion: v2
     appVersion: v3.25.0
-    created: "2023-07-03T07:35:26.003518527-04:00"
+    created: "2023-07-03T08:02:57.812191494-04:00"
     description: Installs the Tigera operator for Calico
-    digest: 47c890e837b232b112c43cd2fa34341c4eb087d9e7ea18fe2e87566b2658223f
+    digest: 993eb3cd4fecaf839e67bd891b37e08567a927927159c80c9efbacb316360d74
     home: https://projectcalico.docs.tigera.io/about/about-calico
     icon: https://projectcalico.docs.tigera.io/images/felix_icon.png
     name: tigera-operator
@@ -741,9 +751,9 @@ entries:
   vault:
   - apiVersion: v2
     appVersion: 1.11.2
-    created: "2023-07-03T07:35:26.011242515-04:00"
+    created: "2023-07-03T08:02:57.817828359-04:00"
     description: Official HashiCorp Vault Chart
-    digest: d45d099f771fbaa44bbff006d9bf6c75968df2d0350e3106242d99d80b205edb
+    digest: aff5b90d0a0df5a6fbbc9d40551676de76d92074b20f0d994022ce34775a4a00
     home: https://www.vaultproject.io
     icon: https://github.com/hashicorp/vault/raw/f22d202cde2018f9455dec755118a9b84586e082/Vault_PrimaryLogo_Black.png
     keywords:
@@ -764,4 +774,4 @@ entries:
     urls:
     - vault-0.21.0.tgz
     version: 0.21.0
-generated: "2023-07-03T07:35:25.783157128-04:00"
+generated: "2023-07-03T08:02:57.644641729-04:00"
