@@ -10,7 +10,7 @@ entries:
         url: https://argoproj.github.io/argo-helm/pgp_keys.asc
     apiVersion: v2
     appVersion: v2.8.0
-    created: "2024-02-15T07:26:42.497978541-05:00"
+    created: "2024-02-15T08:01:13.625835567-05:00"
     description: A Helm chart for Argo CD, a declarative, GitOps continuous delivery
       tool for Kubernetes.
     digest: 1f671995cef1686bcff20a3d67dac1cc4dad31ca50786de640449152f4468ac4
@@ -36,7 +36,7 @@ entries:
         - "[chore]: Update ArgoCD to v2.5.5"
     apiVersion: v2
     appVersion: v2.5.5
-    created: "2024-02-15T07:26:42.487412215-05:00"
+    created: "2024-02-15T08:01:13.615816323-05:00"
     dependencies:
     - condition: redis-ha.enabled
       name: redis-ha
@@ -68,7 +68,7 @@ entries:
         - "[Changed]: Upgrade ArgoRollouts to v1.3.1"
     apiVersion: v2
     appVersion: v1.3.1
-    created: "2024-02-15T07:26:42.503203499-05:00"
+    created: "2024-02-15T08:01:13.6309796-05:00"
     description: A Helm chart for Argo Rollouts
     digest: 9e75e5be78396feb8f6d739d9965c16828d2fd1a36f242f21c892e382f7e9bba
     home: https://github.com/argoproj/argo-helm
@@ -88,7 +88,7 @@ entries:
   argocd-applications:
   - apiVersion: v2
     appVersion: 0.0.0
-    created: "2024-02-15T07:26:42.505948556-05:00"
+    created: "2024-02-15T08:01:13.633895742-05:00"
     description: Argo CD Applications
     digest: cd7d187da9303f5cbe139e121152ea76f7bf6ff8651ca7381c107b90209fcc62
     name: argocd-applications
@@ -103,7 +103,7 @@ entries:
           description: Update Argo CD Image Updater to v0.12.2
     apiVersion: v2
     appVersion: v0.12.2
-    created: "2024-02-15T07:26:42.509281209-05:00"
+    created: "2024-02-15T08:01:13.637136811-05:00"
     description: A Helm chart for Argo CD Image Updater, a tool to automatically update
       the container images of Kubernetes workloads which are managed by Argo CD
     digest: 3311136b831d6cea79674ab07fc70ad705469dbd25dbc2a4eff55da5a36ea876
@@ -124,7 +124,7 @@ entries:
   argocd-projects:
   - apiVersion: v2
     appVersion: 0.0.0
-    created: "2024-02-15T07:26:42.512121878-05:00"
+    created: "2024-02-15T08:01:13.639989609-05:00"
     description: Argo CD Projects
     digest: 01d4c66a1d3b0c5d2ca3c003041a4434af1e43aa5323a616817ce379ca9ccfbd
     name: argocd-projects
@@ -135,7 +135,7 @@ entries:
   argocd-secrets:
   - apiVersion: v2
     appVersion: 0.0.0
-    created: "2024-02-15T07:26:42.521097677-05:00"
+    created: "2024-02-15T08:01:13.649127961-05:00"
     description: Argo CD Secrets
     digest: 53e3381e030be5fad16ea3fa460e54f7b706539f7e01fdabcdf9a45c6d456cf0
     name: argocd-secrets
@@ -145,7 +145,7 @@ entries:
     version: 0.6.0
   - apiVersion: v2
     appVersion: 0.0.0
-    created: "2024-02-15T07:26:42.518035357-05:00"
+    created: "2024-02-15T08:01:13.645925695-05:00"
     description: Argo CD Secrets
     digest: 4ef71647abc043339eef3fd761daa7618d49e1ba4494d962fc9d6334d0e719f3
     name: argocd-secrets
@@ -155,7 +155,7 @@ entries:
     version: 0.5.0
   - apiVersion: v2
     appVersion: 0.0.0
-    created: "2024-02-15T07:26:42.515097333-05:00"
+    created: "2024-02-15T08:01:13.64306081-05:00"
     description: Argo CD Secrets
     digest: 06f77b2778af3689c2aceb7008361f4107e425c005cccd7554da736cbd6ae10d
     name: argocd-secrets
@@ -166,7 +166,7 @@ entries:
   aws-load-balancer-controller:
   - apiVersion: v2
     appVersion: v2.4.2
-    created: "2024-02-15T07:26:42.524893554-05:00"
+    created: "2024-02-15T08:01:13.652725936-05:00"
     description: AWS Load Balancer Controller Helm chart for Kubernetes
     digest: 3188705749497d7eb838cd3c64472de2fac14fac3feb23d57a404a06737dfdbe
     home: https://github.com/aws/eks-charts
@@ -193,7 +193,7 @@ entries:
   base:
   - apiVersion: v1
     appVersion: 1.20.2
-    created: "2024-02-15T07:26:42.534413184-05:00"
+    created: "2024-02-15T08:01:13.661915731-05:00"
     description: Helm chart for deploying Istio cluster resources and CRDs
     digest: 6a8b02c21d2aeb61c264bd20e0966ed92e9110b204ebba621b34127dde4694e2
     icon: https://istio.io/latest/favicons/android-192x192.png
@@ -207,7 +207,7 @@ entries:
     version: 1.20.2
   - apiVersion: v1
     appVersion: 1.16.1
-    created: "2024-02-15T07:26:42.530198262-05:00"
+    created: "2024-02-15T08:01:13.657561761-05:00"
     description: Helm chart for deploying Istio cluster resources and CRDs
     digest: b5af9e41fb6019677ade4521796bf6858c4c1fa9f2081e40bf18a3e5ce6e2ddd
     icon: https://istio.io/latest/favicons/android-192x192.png
@@ -227,7 +227,7 @@ entries:
         url: https://cert-manager.io/public-keys/cert-manager-keyring-2021-09-20-1020CF3C033D4F35BAE1C19E1226061C665DF13E.gpg
     apiVersion: v1
     appVersion: v1.11.0
-    created: "2024-02-15T07:26:42.546430062-05:00"
+    created: "2024-02-15T08:01:13.673737306-05:00"
     description: A Helm chart for cert-manager
     digest: 18bc6bcfe27562ba73d21425875c57b4c7de86950c0ed3d6cca738a0c7be38ad
     home: https://github.com/cert-manager/cert-manager
@@ -255,7 +255,7 @@ entries:
         url: https://cert-manager.io/public-keys/cert-manager-keyring-2021-09-20-1020CF3C033D4F35BAE1C19E1226061C665DF13E.gpg
     apiVersion: v1
     appVersion: v1.11.0
-    created: "2024-02-15T07:26:42.540393203-05:00"
+    created: "2024-02-15T08:01:13.667733133-05:00"
     description: A Helm chart for cert-manager
     digest: 14cfc73176ebb49f37621dfc304882f2158ed5175da043872186b9e31969fb6e
     home: https://github.com/cert-manager/cert-manager
@@ -285,7 +285,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 2.5.2
-    created: "2024-02-15T07:26:42.564253741-05:00"
+    created: "2024-02-15T08:01:13.687852635-05:00"
     description: Chaos Mesh is a cloud-native Chaos Engineering platform that orchestrates
       chaos on Kubernetes environments.
     digest: 80985d8234b04a345eab7ebaefee95029cd0ef8b1c56cae4b01faed446416d6b
@@ -317,7 +317,7 @@ entries:
   cluster-autoscaler:
   - apiVersion: v2
     appVersion: 1.23.0
-    created: "2024-02-15T07:26:42.571762576-05:00"
+    created: "2024-02-15T08:01:13.690845518-05:00"
     description: Scales Kubernetes worker nodes within autoscaling groups.
     digest: f53eb16e9cae9193e9c6d73a61b96e3e6571e68e20209f10073ceafdaabbc249
     home: https://github.com/kubernetes/autoscaler
@@ -357,7 +357,7 @@ entries:
         url: https://keybase.io/hashicorp/pgp_keys.asc
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-02-15T07:26:42.587779719-05:00"
+    created: "2024-02-15T08:01:13.700834473-05:00"
     description: Official HashiCorp Consul Chart
     digest: a253bda898695d924a9e81ac0f813cbfd12f9cd6592666f2aac84dce06d7cd95
     home: https://www.consul.io
@@ -385,7 +385,7 @@ entries:
           description: "Removed RBAC rule for already removed `contour-ingressroute` source. ([#3764](https://github.com/kubernetes-sigs/external-dns/pull/3764)) [@johngmyers](https://github.com/johngmyers)"
     apiVersion: v2
     appVersion: 0.13.6
-    created: "2024-02-15T07:26:42.599938019-05:00"
+    created: "2024-02-15T08:01:13.706585399-05:00"
     description: ExternalDNS synchronizes exposed Kubernetes Services and Ingresses
       with DNS providers.
     digest: 4296293305b9801f6049948b81a2280c06a6271fa51d0250d9652ce9817c0586
@@ -424,7 +424,7 @@ entries:
           description: "Updated _ExternalDNS_ version to [v0.13.4](https://github.com/kubernetes-sigs/external-dns/releases/tag/v0.13.4)."
     apiVersion: v2
     appVersion: 0.13.4
-    created: "2024-02-15T07:26:42.593763902-05:00"
+    created: "2024-02-15T08:01:13.703595828-05:00"
     description: ExternalDNS synchronizes exposed Kubernetes Services and Ingresses
       with DNS providers.
     digest: 340498320ceb116b6c67cfa39673e9e58303bb5975cafa79624a7a509852fa30
@@ -450,7 +450,7 @@ entries:
   external-secrets:
   - apiVersion: v2
     appVersion: v0.9.11
-    created: "2024-02-15T07:26:42.618015766-05:00"
+    created: "2024-02-15T08:01:13.723035853-05:00"
     description: External secret management for Kubernetes
     digest: fec0e3c284d779963f4c0df7274cf0a81b428967b1f9c5063a2d5af4241a021f
     home: https://github.com/external-secrets/external-secrets
@@ -468,8 +468,27 @@ entries:
     - external-secrets-0.9.11.tgz
     version: 0.9.11
   - apiVersion: v2
+    appVersion: v0.9.11
+    created: "2024-02-15T08:01:13.71733645-05:00"
+    description: External secret management for Kubernetes
+    digest: e7f5c5ba41424f73025c82e5467821c82de44e650c5ae18b9473e0f9b40acb10
+    home: https://github.com/external-secrets/external-secrets
+    icon: https://raw.githubusercontent.com/external-secrets/external-secrets/main/assets/eso-logo-large.png
+    keywords:
+    - kubernetes-external-secrets
+    - secrets
+    kubeVersion: '>= 1.19.0-0'
+    maintainers:
+    - email: kellinmcavoy@gmail.com
+      name: mcavoyk
+    name: external-secrets
+    type: application
+    urls:
+    - external-secrets-0.9.11-custom.tgz
+    version: 0.9.11-custom
+  - apiVersion: v2
     appVersion: v0.7.2
-    created: "2024-02-15T07:26:42.607939144-05:00"
+    created: "2024-02-15T08:01:13.711476509-05:00"
     description: External secret management for Kubernetes
     digest: 65d32de021ab523c3c836ef7b7b286a2ac291395f98d3de17474868b0deffa09
     home: https://github.com/external-secrets/external-secrets
@@ -489,7 +508,7 @@ entries:
   gateway:
   - apiVersion: v2
     appVersion: 1.20.2
-    created: "2024-02-15T07:26:42.646448152-05:00"
+    created: "2024-02-15T08:01:13.737868853-05:00"
     description: Helm chart for deploying Istio gateways
     digest: 98aca7c7564381d82b195656d607cdeb624b56e566f18d94114f3f5c63e3d753
     icon: https://istio.io/latest/favicons/android-192x192.png
@@ -505,7 +524,7 @@ entries:
     version: 1.21.4
   - apiVersion: v2
     appVersion: 1.20.2
-    created: "2024-02-15T07:26:42.64063062-05:00"
+    created: "2024-02-15T08:01:13.734699687-05:00"
     description: Helm chart for deploying Istio gateways
     digest: 19d641c33678444dfb381f5b7071a33c9d0d839ffe4b131ac47e205074c86c00
     icon: https://istio.io/latest/favicons/android-192x192.png
@@ -521,7 +540,7 @@ entries:
     version: 1.21.3
   - apiVersion: v2
     appVersion: 1.20.2
-    created: "2024-02-15T07:26:42.635016966-05:00"
+    created: "2024-02-15T08:01:13.731239356-05:00"
     description: Helm chart for deploying Istio gateways
     digest: c19b9806d3b706a36918cac4f9219acc61b3b8cc70be0d40d9aa670f24d61f2b
     icon: https://istio.io/latest/favicons/android-192x192.png
@@ -537,7 +556,7 @@ entries:
     version: 1.21.2
   - apiVersion: v2
     appVersion: 1.20.2
-    created: "2024-02-15T07:26:42.628982201-05:00"
+    created: "2024-02-15T08:01:13.728508832-05:00"
     description: Helm chart for deploying Istio gateways
     digest: 7c47bafa88251b1d557bd08c5431ed50e649b9e9bc08f3a32565402d7ddb0691
     icon: https://istio.io/latest/favicons/android-192x192.png
@@ -553,7 +572,7 @@ entries:
     version: 1.20.2
   - apiVersion: v2
     appVersion: 1.16.1
-    created: "2024-02-15T07:26:42.623513867-05:00"
+    created: "2024-02-15T08:01:13.725763032-05:00"
     description: Helm chart for deploying Istio gateways
     digest: b3b7c44919ace06aab2c1d6ce515ba81130858ee612890583d227fdb2b590f39
     icon: https://istio.io/latest/favicons/android-192x192.png
@@ -570,7 +589,7 @@ entries:
   grafana:
   - apiVersion: v2
     appVersion: 9.3.1
-    created: "2024-02-15T07:26:42.653999007-05:00"
+    created: "2024-02-15T08:01:13.742720156-05:00"
     description: The leading tool for querying and visualizing time series and metrics.
     digest: 7ff8dde800ad71177720dc69b9c7ac567449565ba037790d445f624f01cdaba9
     home: https://grafana.net
@@ -597,7 +616,7 @@ entries:
   harbor:
   - apiVersion: v1
     appVersion: 2.8.1
-    created: "2024-02-15T07:26:42.662865208-05:00"
+    created: "2024-02-15T08:01:13.747986406-05:00"
     description: An open source trusted cloud native registry that stores, signs,
       and scans content
     digest: 856b14cc612680bc8b3f78fa2e5df772c030376a939c3bac7e6b37d1f2807349
@@ -624,7 +643,7 @@ entries:
   hashi-demo:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-02-15T07:26:42.696643976-05:00"
+    created: "2024-02-15T08:01:13.765586652-05:00"
     description: A Helm chart for Kubernetes
     digest: e29af4bd78ebda2b8ef33ad56f50076c3edf11a8b93be47aaeee3b76fdbe63ab
     name: hashi-demo
@@ -634,7 +653,7 @@ entries:
     version: 0.14.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-02-15T07:26:42.690956546-05:00"
+    created: "2024-02-15T08:01:13.763010635-05:00"
     description: A Helm chart for Kubernetes
     digest: 193dece9c74ccc899107972897d1cde14db3bfe6baec2a8dc7128506e8d9b9e2
     name: hashi-demo
@@ -644,7 +663,7 @@ entries:
     version: 0.13.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-02-15T07:26:42.685454934-05:00"
+    created: "2024-02-15T08:01:13.760286271-05:00"
     description: A Helm chart for Kubernetes
     digest: 398fc8dd0fc99057c67050548165715cf22ddbafa02b59f13e9e01d024c85665
     name: hashi-demo
@@ -654,7 +673,7 @@ entries:
     version: 0.12.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-02-15T07:26:42.679814458-05:00"
+    created: "2024-02-15T08:01:13.75764727-05:00"
     description: A Helm chart for Kubernetes
     digest: a9737f7d23b95acc953c744b6ef77f711c4543cfb318c9da5155a7dd87961a38
     name: hashi-demo
@@ -664,7 +683,7 @@ entries:
     version: 0.11.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-02-15T07:26:42.674392622-05:00"
+    created: "2024-02-15T08:01:13.754020383-05:00"
     description: A Helm chart for Kubernetes
     digest: e8566429b08c9876be692a1165520e0b5b472a4495bfd4201e1696a4c8689f59
     name: hashi-demo
@@ -674,7 +693,7 @@ entries:
     version: 0.10.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-02-15T07:26:42.741265967-05:00"
+    created: "2024-02-15T08:01:13.786081308-05:00"
     description: A Helm chart for Kubernetes
     digest: 83c563cada822229fe991a1ce4526abbd05237408a0bf993e89a3d334fd9a3fe
     name: hashi-demo
@@ -684,7 +703,7 @@ entries:
     version: 0.9.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-02-15T07:26:42.735953008-05:00"
+    created: "2024-02-15T08:01:13.783614107-05:00"
     description: A Helm chart for Kubernetes
     digest: e24940d1b7452fa09ef3c7408f21fe21be0935b9c2ea6ce0b1af1318b7fcb1e4
     name: hashi-demo
@@ -694,7 +713,7 @@ entries:
     version: 0.8.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-02-15T07:26:42.730348609-05:00"
+    created: "2024-02-15T08:01:13.781199897-05:00"
     description: A Helm chart for Kubernetes
     digest: 0aed564a238e9873aea83e5ab6a73102a79447fcc12aa139090c49c8f357cc27
     name: hashi-demo
@@ -704,7 +723,7 @@ entries:
     version: 0.7.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-02-15T07:26:42.724889759-05:00"
+    created: "2024-02-15T08:01:13.778669667-05:00"
     description: A Helm chart for Kubernetes
     digest: c923a1c4adf1ee4eeb8ef16ba5e03215191c90d4320c8aa5fe747da987dd3b40
     name: hashi-demo
@@ -714,7 +733,7 @@ entries:
     version: 0.6.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-02-15T07:26:42.71917417-05:00"
+    created: "2024-02-15T08:01:13.776194852-05:00"
     description: A Helm chart for Kubernetes
     digest: b2a8debd7c8f7c07085ca553a3fbd9c8a632371165897fde55e7271402577f5a
     name: hashi-demo
@@ -724,7 +743,7 @@ entries:
     version: 0.5.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-02-15T07:26:42.713698497-05:00"
+    created: "2024-02-15T08:01:13.773536134-05:00"
     description: A Helm chart for Kubernetes
     digest: 09f3ee22c06e0188ef754bb7af00a221db74bd822248a29e517f02f3e3c76371
     name: hashi-demo
@@ -734,7 +753,7 @@ entries:
     version: 0.4.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-02-15T07:26:42.708068922-05:00"
+    created: "2024-02-15T08:01:13.77084893-05:00"
     description: A Helm chart for Kubernetes
     digest: 572c920d31329889d9e6715145cbcbf1e12724fb1c7b8c541df60b2b12782a53
     name: hashi-demo
@@ -744,7 +763,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-02-15T07:26:42.702177961-05:00"
+    created: "2024-02-15T08:01:13.768178449-05:00"
     description: A Helm chart for Kubernetes
     digest: 69c031e6d25d84950c78fe0595d8d55d136b1d797bf45c2b21829e351f53c9d3
     name: hashi-demo
@@ -754,7 +773,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-02-15T07:26:42.668696621-05:00"
+    created: "2024-02-15T08:01:13.750963494-05:00"
     description: A Helm chart for Kubernetes
     digest: 00988d3360e076c0a0496d175e67af0fa6bc004bd990580505d6b3cbefb599b5
     name: hashi-demo
@@ -773,7 +792,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 1.9.5
-    created: "2024-02-15T07:26:42.758620932-05:00"
+    created: "2024-02-15T08:01:13.79763347-05:00"
     description: Ingress controller for Kubernetes using NGINX as a reverse proxy
       and load balancer
     digest: a7b311644fa9ec47b34c9e4ad53d413b880335bba4b484f536edb9a6632244c1
@@ -804,7 +823,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 1.6.4
-    created: "2024-02-15T07:26:42.749463293-05:00"
+    created: "2024-02-15T08:01:13.791150952-05:00"
     description: Ingress controller for Kubernetes using NGINX as a reverse proxy
       and load balancer
     digest: 84d9077fec2d1c05ccde64ec6b9b698445404e38152f604b0db9a7109ce4ec06
@@ -827,7 +846,7 @@ entries:
   istio-ingress:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-02-15T07:26:42.779960131-05:00"
+    created: "2024-02-15T08:01:13.808677062-05:00"
     description: Istio ingress gateway
     digest: ea6d4b5724cff8f42c4d070fa3f9dd60b4639b4b763659a3e2d80868b4b46755
     name: istio-ingress
@@ -837,7 +856,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-02-15T07:26:42.774765987-05:00"
+    created: "2024-02-15T08:01:13.805914881-05:00"
     description: Istio ingress gateway
     digest: 70f587c7cc7878694e1e3c7df8d977e727082ed457b86744f2370de5db419e90
     name: istio-ingress
@@ -847,7 +866,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-02-15T07:26:42.769480048-05:00"
+    created: "2024-02-15T08:01:13.803149455-05:00"
     description: Istio ingress gateway
     digest: 1e130d6a1c3e13aa2a8e90a21b00cc73e53bb04e9b9875062593e2edea445a85
     name: istio-ingress
@@ -857,7 +876,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-02-15T07:26:42.764019459-05:00"
+    created: "2024-02-15T08:01:13.800386573-05:00"
     description: Istio ingress gateway
     digest: a65195c3a493e95b0eedb578c23ae5b978510005bc0c1718bef10f3a1004e68e
     name: istio-ingress
@@ -868,7 +887,7 @@ entries:
   istiod:
   - apiVersion: v1
     appVersion: 1.20.2
-    created: "2024-02-15T07:26:42.794819832-05:00"
+    created: "2024-02-15T08:01:13.817534836-05:00"
     description: Helm chart for istio control plane
     digest: 8b4aed601e0a48995caf8aee6943b24cc0454b0c7f7f927ecd205f0214f70a3f
     icon: https://istio.io/latest/favicons/android-192x192.png
@@ -884,7 +903,7 @@ entries:
     version: 1.20.2
   - apiVersion: v1
     appVersion: 1.16.1
-    created: "2024-02-15T07:26:42.787415515-05:00"
+    created: "2024-02-15T08:01:13.813174088-05:00"
     description: Helm chart for istio control plane
     digest: 5d536aa137bf320d3f58f916177801ec5d3c951d22f9241de9420f3c84857483
     icon: https://istio.io/latest/favicons/android-192x192.png
@@ -901,7 +920,7 @@ entries:
   jaeger:
   - apiVersion: v2
     appVersion: 1.53.0
-    created: "2024-02-15T07:26:42.911881868-05:00"
+    created: "2024-02-15T08:01:13.831478547-05:00"
     dependencies:
     - condition: provisionDataStore.cassandra
       name: cassandra
@@ -949,7 +968,7 @@ entries:
   kiali-server:
   - apiVersion: v2
     appVersion: v1.79.0
-    created: "2024-02-15T07:26:42.92328954-05:00"
+    created: "2024-02-15T08:01:13.838148676-05:00"
     description: Kiali is an open source project for service mesh observability, refer
       to https://www.kiali.io for details.
     digest: e3592f0530f8048e6068c912863cd81c614406ca0c826134ca426895480d8d60
@@ -972,7 +991,7 @@ entries:
     version: 1.79.0
   - apiVersion: v2
     appVersion: v1.65.0
-    created: "2024-02-15T07:26:42.917731756-05:00"
+    created: "2024-02-15T08:01:13.834798169-05:00"
     description: Kiali is an open source project for service mesh observability, refer
       to https://www.kiali.io for details.
     digest: d475d6faf1c9290b19c20bbfe3220869cf82ddffc51a6fd5ac7a36bcc1ed1875
@@ -996,7 +1015,7 @@ entries:
   kube-state-metrics:
   - apiVersion: v2
     appVersion: 2.7.0
-    created: "2024-02-15T07:26:42.929690649-05:00"
+    created: "2024-02-15T08:01:13.841530587-05:00"
     description: Install kube-state-metrics to generate and expose cluster-level metrics
     digest: 1485823b9b2e9e00ee48cf25509be93b4e70dd65e315cc2603bf9826f6a7f1be
     home: https://github.com/kubernetes/kube-state-metrics/
@@ -1022,7 +1041,7 @@ entries:
   kubernetes-dashboard:
   - apiVersion: v2
     appVersion: v2.7.0
-    created: "2024-02-15T07:26:42.936119085-05:00"
+    created: "2024-02-15T08:01:13.845354116-05:00"
     dependencies:
     - condition: metrics-server.enabled
       name: metrics-server
@@ -1052,7 +1071,7 @@ entries:
           description: "Allow probes to be turned off completly (this is not advised unless you know what you're doing)."
     apiVersion: v2
     appVersion: 0.6.1
-    created: "2024-02-15T07:26:42.941923056-05:00"
+    created: "2024-02-15T08:01:13.8487638-05:00"
     description: Metrics Server is a scalable, efficient source of container resource
       metrics for Kubernetes built-in autoscaling pipelines.
     digest: fbdccaedbf969c4deeb2323a74ed676565c9304bcf1469617396b1bae25c7d1e
@@ -1079,7 +1098,7 @@ entries:
   namespaces:
   - apiVersion: v2
     appVersion: 0.0.0
-    created: "2024-02-15T07:26:42.947393405-05:00"
+    created: "2024-02-15T08:01:13.851690707-05:00"
     description: Application namespaces and RBAC
     digest: fa19e57d14e194fa0b6ac78fdab786966108786cc2e9e9f585d0006aace8cf2a
     name: namespaces
@@ -1093,7 +1112,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 15.2.0
-    created: "2024-02-15T07:26:42.957153992-05:00"
+    created: "2024-02-15T08:01:13.857839603-05:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -1126,7 +1145,7 @@ entries:
   progressive:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-02-15T07:26:42.962704156-05:00"
+    created: "2024-02-15T08:01:13.860763139-05:00"
     description: Sample application using argo rollouts
     digest: 2aa8bfb093f755e9bd7dc81cb2dc676c6fd110ef7b8dd09e08883af08a119c53
     name: progressive
@@ -1143,7 +1162,7 @@ entries:
           url: https://github.com/prometheus/prometheus
     apiVersion: v2
     appVersion: v2.40.5
-    created: "2024-02-15T07:26:42.972736855-05:00"
+    created: "2024-02-15T08:01:13.867999744-05:00"
     dependencies:
     - condition: alertmanager.enabled
       name: alertmanager
@@ -1195,7 +1214,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 7.0.11
-    created: "2024-02-15T07:26:42.982977854-05:00"
+    created: "2024-02-15T08:01:13.875176183-05:00"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -1224,7 +1243,7 @@ entries:
   reloader:
   - apiVersion: v1
     appVersion: v0.0.124
-    created: "2024-02-15T07:26:42.989084189-05:00"
+    created: "2024-02-15T08:01:13.878324396-05:00"
     description: Reloader chart that runs on kubernetes
     digest: d061d7cd347d4d602932ff428ecb0839c0cd1a20c03b2d221de03544c7f454d3
     home: https://github.com/stakater/Reloader
@@ -1258,7 +1277,7 @@ entries:
   secrets-store-csi-driver:
   - apiVersion: v2
     appVersion: 1.3.1
-    created: "2024-02-15T07:26:42.995071748-05:00"
+    created: "2024-02-15T08:01:13.882220643-05:00"
     description: A Helm chart to install the SecretsStore CSI Driver inside a Kubernetes
       cluster.
     digest: b0b58400ac5cb7fe979ddbb46ae9de4b987970f0fcce30b5c9a43d9f6154585b
@@ -1276,7 +1295,7 @@ entries:
   tigera-operator:
   - apiVersion: v2
     appVersion: v3.26.1
-    created: "2024-02-15T07:26:43.017213845-05:00"
+    created: "2024-02-15T08:01:13.898159396-05:00"
     description: Installs the Tigera operator for Calico
     digest: 8a52c9038da476371bd913b03aefd3bf561214e40a26a0d8c65534ed447ea4a6
     home: https://projectcalico.docs.tigera.io/about/about-calico
@@ -1291,7 +1310,7 @@ entries:
     version: v3.26.1
   - apiVersion: v2
     appVersion: v3.25.0
-    created: "2024-02-15T07:26:43.005453708-05:00"
+    created: "2024-02-15T08:01:13.889516465-05:00"
     description: Installs the Tigera operator for Calico
     digest: f2a1080753683bf898fdb8c181f7fe17f07422f204f035bdc2afeb91a356115d
     home: https://projectcalico.docs.tigera.io/about/about-calico
@@ -1307,7 +1326,7 @@ entries:
   vault:
   - apiVersion: v2
     appVersion: 1.11.2
-    created: "2024-02-15T07:26:43.024800583-05:00"
+    created: "2024-02-15T08:01:13.903039493-05:00"
     description: Official HashiCorp Vault Chart
     digest: a9c07bcb2d986194615e7025ff7d6c4de6c1056040474b562be0c8a8d4543327
     home: https://www.vaultproject.io
@@ -1330,4 +1349,4 @@ entries:
     urls:
     - vault-0.21.0.tgz
     version: 0.21.0
-generated: "2024-02-15T07:26:42.476418278-05:00"
+generated: "2024-02-15T08:01:13.604980736-05:00"
