@@ -1,0 +1,42 @@
+{{- if .Values.enableNetworkPolicy }}
+{{- $instance := include "progressive.fullname" . -}}
+
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: {{ $instance }}
+  labels:
+    {{- include "progressive.labels" . | nindent 4 }}
+spec:
+  podSelector:
+    matchLabels:
+      app: {{ $instance }}
+  policyTypes:
+  - Ingress
+  ingress:
+  - from:
+    - namespaceSelector:
+        {{- with .Values.access.policy.namespaceSelector }}
+        {{- toYaml . | nindent 8 }}
+        {{- end }}
+    ports:
+    - protocol: TCP
+      port: 8080
+    - protocol: TCP
+      port: 15020
+    - protocol: TCP
+      port: 15021
+  - from:
+    - podSelector:
+        {{- with .Values.access.policy.podSelector }}
+        {{- toYaml . | nindent 8 }}
+        {{- end }}
+    ports:
+    - protocol: TCP
+      port: 8080
+    - protocol: TCP
+      port: 15020
+    - protocol: TCP
+      port: 15021
+
+{{- end }}

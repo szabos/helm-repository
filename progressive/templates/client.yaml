@@ -1,0 +1,52 @@
+{{- $instance := include "progressive.fullname" . -}}
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ $instance }}-client
+  labels:
+    {{- include "progressive.labels" . | nindent 4 }}
+  annotations:
+    secret.reloader.stakater.com/reload: {{ $instance }}
+spec:
+  selector:
+    matchLabels:
+      app: {{ $instance }}-client
+      version: v1
+  template:
+    metadata:
+      labels:
+        app: {{ $instance }}-client
+        version: v1
+    spec:
+      securityContext:
+        runAsNonRoot: true
+        seccompProfile:
+          type: RuntimeDefault
+      containers:
+      - name: client
+        image: "{{ .Values.client.image.repository }}:{{ .Values.client.image.tag | default .Chart.AppVersion }}"
+        imagePullPolicy: {{ .Values.client.image.pullPolicy }}
+        command: ["/bin/bash", "-c", "while true; do curl -v -m 5 http://$BACKEND_SERVICE/; sleep 1; done"]
+        env:
+        - name: BACKEND_SERVICE
+          value: {{ $instance }}
+        {{- range $v := .Values.eso.secrets }}
+        - name: {{ upper $v.secretKey | replace "-" "_" }}
+          valueFrom:
+            secretKeyRef:
+              name: {{ $instance }}
+              key: {{ $v.secretKey }}
+        {{- end }}
+        securityContext:
+          allowPrivilegeEscalation: false
+          runAsNonRoot: true
+          runAsUser: 33
+          runAsGroup: 33
+          capabilities:
+            drop:
+            - ALL
+        {{- with .Values.client.resources }}
+        resources:
+        {{- toYaml . | nindent 10 }}
+        {{- end }}

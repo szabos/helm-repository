@@ -1,0 +1,86 @@
+enableArgoRollouts: false
+enableIstio: false
+enableNetworkPolicy: false
+
+replicaCount: 3
+
+client:
+  image:
+    repository: us-east1-docker.pkg.dev/engineering-406619/engineering-01/webapp
+    pullPolicy: IfNotPresent
+    tag: 0240042
+  resources:
+    requests:
+      cpu: 128m
+      memory: 256M
+    limits:
+      cpu: 128m
+      memory: 256M
+
+service:
+  fault:
+    percentage: 0
+  image:
+    repository: us-east1-docker.pkg.dev/engineering-406619/engineering-01/webapp
+    pullPolicy: IfNotPresent
+    tag: 0240042
+  resources:
+    requests:
+      cpu: 128m
+      memory: 256M
+    limits:
+      cpu: 128m
+      memory: 256M
+
+gateway:
+  hostname: aaaaaaaaaaaa.engineering.cloudserv.ca
+  instance: aaaaaaaaaaaa
+  secret: aaaaaaaaaaaa
+  mode: SIMPLE
+
+analysys:
+  interval: 2m
+  successCondition: result[0] >= 0.95
+  failureLimit: 3
+  provider:
+    prometheus:
+      address: http://engineering-01-prometheus-server.base-prometheus.svc.cluster.local
+      query: |
+        sum(irate(istio_requests_total{reporter="source",destination_service=~"{{args.service}}",response_code!~"5.*"}[2m])) /
+        sum(irate(istio_requests_total{reporter="source",destination_service=~"{{args.service}}"}[2m]))
+
+eso:
+  store: cluster
+  refreshInterval: 60m
+  secrets:
+  - secretKey: argocd-repo-access-username-key
+    remoteRef:
+      key: argocd-repo-access-username-ref
+
+access:
+  authentication:
+    peerAuthentication: PERMISSIVE
+    destinationRule: SIMPLE
+  authorization:
+    action: DENY
+    rules:
+    - from:
+      - source:
+          principals:
+          - cluster.local/ns/application/sa/default
+      to:
+      - operation:
+          methods: ["GET"]
+  policy:
+    namespaceSelector:
+      matchExpressions:
+      - key: kubernetes.io/metadata.name
+        operator: In
+        values:
+        - nginx
+    podSelector:
+      matchExpressions:
+      - key: app
+        operator: In
+        values:
+        - application
